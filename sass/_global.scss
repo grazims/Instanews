@@ -1,0 +1,17 @@
+html, body {
+    font-family: $font;
+    font-size: $size;
+    color: $text-color;
+    background-color: black;
+    padding: 20px;
+    
+}
+
+select {
+    font-family: $font;
+    font-size: $size;
+    
+}
+footer {
+    color: $footer-color;
+}
