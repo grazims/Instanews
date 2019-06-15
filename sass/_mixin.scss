@@ -1,10 +1,10 @@
-// @media (min-width: 600px){
-//     .container {
-//         background-color: violet;
-//         justify-content: start;
-//         display: flex;  
-//         flex-wrap: wrap;
-//         align-items: center;
-//         flex-direction: row;
-//     }
-// };
+@mixin desktop($width) {
+    @media only screen and (min-width: $width) {
+      @content;
+    }
+  }
+  @mixin tablet($width) {
+    @media only screen and (min-width: $width) {
+      @content;
+    }
+  }

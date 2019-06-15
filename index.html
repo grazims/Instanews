@@ -14,10 +14,10 @@
         </div>
                 
         <form class="form" action="/action_page.php">
-            <p>Chose a section:</p>
+            <p>Choose a section:</p>
             <select class="list">
-                <option value="Sections...">Sections...</option>
-                <option value="home" selected >Home</option>
+                <option selected value="Sections...">Sections...</option>
+                <option value="home">Home</option>
                 <option value="arts">Arts</option>
                 <option value="business">Business</option>
                 <option value="sports">Sports</option>
@@ -26,6 +26,8 @@
             </select>
         </form>
     </header>
+    
+    <img class="loading-image" src="assets/images/ajax-loader.gif" alt="Loading...">
 
     <section id="categories">
         <ul class="image-grid">
@@ -41,14 +43,11 @@
         </ul>
     </section>
 
-
     
     
    
-    
-    
 
-    <footer>Copyright 2016 INSTANEWS</footer>
+    <footer><p class="footer-text">Copyright 2016 INSTANEWS</p></footer>
     <script
       src="https://code.jquery.com/jquery-3.4.1.min.js"
       integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo="
