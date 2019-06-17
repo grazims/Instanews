@@ -1,3 +1,4 @@
+$('select').selectric();
 $('.loading-image').hide();
 $(".list").on("change", function(event) {
     console.log();
