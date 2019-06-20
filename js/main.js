@@ -16,7 +16,7 @@ $(".list").on("change", function(event) {
          data.results.forEach(element => {
              if (count < 12 && element.multimedia.length >= 5 ) {
                 count = count + 1;                 
-                $(".image-grid").append(`<li><a href="${element.url}"><div class="image-style" style="background-image: url('${element.multimedia[4].url}');"><p>${element.title}</p></div></a></li>`);
+                $(".image-grid").append(`<li><a href="${element.url}" target="_blank"><div class="image-style" style="background-image: url('${element.multimedia[4].url}');"><p>${element.title}</p></div></a></li>`);
              }
          });
     })
