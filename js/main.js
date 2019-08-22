@@ -31,7 +31,7 @@ jQuery(function($) {
           });
         })
         .error(function() {
-          alert('whatever');
+          alert('Sorry, something went wrong');
         });
     });
   });
